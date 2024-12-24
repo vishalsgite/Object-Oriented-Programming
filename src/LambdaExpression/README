@@ -1,0 +1,10 @@
+The syntax of a lambda expression is:
+(parameters) -> expression
+
+Or (parameters) -> { statements; }
+
+
+Key Points
+Lambda expressions work only with functional interfaces (interfaces with a single abstract method).
+They improve code readability and reduce boilerplate code.
+Common functional interfaces include Runnable, Callable, Comparator, Function, Predicate, etc.
