@@ -39,17 +39,17 @@ provides the runtime environment needed to execute Java applications. It include
 - Pre-Compiled Libraries: Provides standard Java libraries (e.g., java.util, java.io).
 - Platform Independence: Facilitates the "write once, run anywhere" principle by running programs on any system with a JRE installed.
 
-### **Components of JRE:**
-**1.JVM (Java Virtual Machine):**
+## **Components of JRE:**
+### **1.JVM (Java Virtual Machine):**
 - The core component of JRE.
 - Executes the bytecode and provides platform independence.
-**2.Class Libraries:**
+### **2.Class Libraries:**
 - A set of pre-compiled, reusable classes and interfaces.
 - Includes essential packages like java.lang, java.util, and java.io.
-**3.Class Loader:**
+### **3.Class Loader:**
 - Loads classes required for execution into memory.
 - Verifies bytecode for security.
-**4.Other Supporting Files:**
+### **4.Other Supporting Files:**
 - Configuration files, property files, and resource files necessary for runtime.
 
 ### **How JRE Works:**
@@ -63,9 +63,9 @@ The Java Development Kit (JDK) is a software development environment used for de
 needed to write, compile, and debug Java applications. The JDK is essential for Java developers.
 
 ## **Key Features of JDK:**
-### **1.Development Tools:** Provides tools like the Java compiler (javac), debugger (jdb), and documentation generator (javadoc).
-### **2.Libraries and APIs:** Includes the standard class libraries and APIs required for Java development.
-### **3.Runtime Environment:** Contains the JRE to test and execute Java programs.
+ **1.Development Tools:** Provides tools like the Java compiler (javac), debugger (jdb), and documentation generator (javadoc).
+**2.Libraries and APIs:** Includes the standard class libraries and APIs required for Java development.
+**3.Runtime Environment:** Contains the JRE to test and execute Java programs.
 
 **JDK Workflow:**
 1- Write Java source code in .java files.
