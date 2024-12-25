@@ -104,9 +104,11 @@ class Car {
         System.out.println("Max Speed: " + maxSpeed + " km/h");
     }
 }
-
-
-
-
-
+public class Main {
+    public static void main(String[] args) {
+        // Creating an object of the Car class
+        Car myCar = new Car("Tesla", 250);
+        myCar.displayInfo(); // Accessing the method
+    }
+}
 
