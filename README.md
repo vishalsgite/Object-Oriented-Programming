@@ -127,7 +127,7 @@ public class Main {
 ## **Keywords In Java :** 
 - **this** :  used to refer to the current instance variable of the class & commonly used to resolve naming conflicts.pass the current instance as a parameter, or invoke other constructors or methods within the same class.
 **- Key Uses of this Keyword:** :
-  -**1.Referencing Current Class Instance Variables:** It is used to resolve ambiguity when instance variables and parameters have the same name.
+- **1.Referencing Current Class Instance Variables:** It is used to resolve ambiguity when instance variables and parameters have the same name.for ex.,
 ```java
 class Employee {
     String name;
