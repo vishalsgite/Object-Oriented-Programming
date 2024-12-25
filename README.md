@@ -86,6 +86,25 @@ in Java is a programming paradigm that uses the concept of "objects" to design a
 
 -**class** in Java is a blueprint or template for creating objects. It defines the properties (fields/attributes) and behaviors (methods) that the objects created from the class will have. A class encapsulates data and methods into a single unit, following the principles of Object-Oriented Programming (OOP).**An object** in Java is an instance of a class. It represents a real-world entity and has two main characteristics: state (attributes) and behavior (methods). Objects are the fundamental units of Object-Oriented Programming (OOP).
 
+```java
+class Car {
+    // Fields : Data : Data Members : Instance Variables
+    String brand;
+    int maxSpeed;
+
+    // Constructor
+    Car(String brand, int maxSpeed) {
+        this.brand = brand;
+        this.maxSpeed = maxSpeed;
+    }
+
+    // Method :Behaviour : member Methods : functions 
+    void displayInfo() {
+        System.out.println("Brand: " + brand);
+        System.out.println("Max Speed: " + maxSpeed + " km/h");
+    }
+}
+
 
 
 
