@@ -1,6 +1,6 @@
  # **JVM JDK &  JVM**
 
- **JVM - JAVA VIRTUAL MACHINE :** Like name suggest it is virutal machine , The Java Virtual Machine (JVM) is a crucial part of the Java Runtime Environment (JRE) responsible for running Java programs. It acts as an abstract computing machine that enables 
+## **JVM - JAVA VIRTUAL MACHINE :** Like name suggest it is virutal machine , The Java Virtual Machine (JVM) is a crucial part of the Java Runtime Environment (JRE) responsible for running Java programs. It acts as an abstract computing machine that enables 
 a computer to run Java programs by converting the bytecode (compiled Java code) into machine-specific instructions.
 ### **Key Features of JVM:**
 - **Platform Independence:** JVM allows Java programs to be platform-independent by interpreting bytecode for the specific underlying hardware.
@@ -31,41 +31,41 @@ a computer to run Java programs by converting the bytecode (compiled Java code) 
 - Native method libraries are accessed if needed.
 - The Garbage Collector manages memory cleanup.
 
-**JRE - JAVA RUNTIME Environment**
+## **JRE - JAVA RUNTIME Environment**
 The Java Runtime Environment (JRE) is a part of the Java Development Kit (JDK) that 
 provides the runtime environment needed to execute Java applications. It includes the necessary libraries, files, and components to run Java programs.
-**Key Features of JRE:**
+## **Key Features of JRE:**
 - Runtime Environment: Enables the execution of Java applications.
 - Pre-Compiled Libraries: Provides standard Java libraries (e.g., java.util, java.io).
 - Platform Independence: Facilitates the "write once, run anywhere" principle by running programs on any system with a JRE installed.
 
-**Components of JRE:**
-**1- JVM (Java Virtual Machine):**
+### **Components of JRE:**
+**1.JVM (Java Virtual Machine):**
 - The core component of JRE.
 - Executes the bytecode and provides platform independence.
-**2 - Class Libraries:**
+**2.Class Libraries:**
 - A set of pre-compiled, reusable classes and interfaces.
 - Includes essential packages like java.lang, java.util, and java.io.
-**3 - Class Loader:**
+**3.Class Loader:**
 - Loads classes required for execution into memory.
 - Verifies bytecode for security.
-**4 - Other Supporting Files:**
+**4.Other Supporting Files:**
 - Configuration files, property files, and resource files necessary for runtime.
 
-**How JRE Works:**
+### **How JRE Works:**
 - A compiled Java program (.class file) is passed to the JRE.
 - The JVM within the JRE interprets or compiles the bytecode into machine code.
 - The Java Class Libraries provide the necessary APIs and utilities to execute the program.
 - JRE interacts with the operating system to perform required tasks like file I/O, memory management, and networking.
 
-**JDK - Java Development Kit**
+## **JDK - Java Development Kit**
 The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It is the full-featured software suite that includes everything 
 needed to write, compile, and debug Java applications. The JDK is essential for Java developers.
 
-**Key Features of JDK:**
-**1- Development Tools:** Provides tools like the Java compiler (javac), debugger (jdb), and documentation generator (javadoc).
-**2- Libraries and APIs:** Includes the standard class libraries and APIs required for Java development.
-**3- Runtime Environment:** Contains the JRE to test and execute Java programs.
+## **Key Features of JDK:**
+### **1.Development Tools:** Provides tools like the Java compiler (javac), debugger (jdb), and documentation generator (javadoc).
+### **2.Libraries and APIs:** Includes the standard class libraries and APIs required for Java development.
+### **3.Runtime Environment:** Contains the JRE to test and execute Java programs.
 
 **JDK Workflow:**
 1- Write Java source code in .java files.
