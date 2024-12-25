@@ -7,8 +7,8 @@ a computer to run Java programs by converting the bytecode (compiled Java code) 
 - **Memory Management:** JVM handles memory through the heap, stack, method area, and garbage collection.
 - **Performance Optimization:** Just-In-Time (JIT) compilation optimizes the performance of Java programs.
 - **Security:** JVM includes security features like bytecode verification and the Security Manager.
-**Components of JVM:**
-**1 - Class Loader:**
+### **Components of JVM:**
+ **1 - Class Loader:**
 - Loads .class files into memory.
 - Verifies the bytecode and allocates memory.
 **2 - Runtime Data Areas:**
