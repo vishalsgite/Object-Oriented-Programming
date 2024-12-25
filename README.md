@@ -124,3 +124,27 @@ public class Main {
     }
 }
 ```
+## **Keywords In Java :** 
+- **this** :  used to refer to the current instance variable of the class & commonly used to resolve naming conflicts.pass the current instance as a parameter, or invoke other constructors or methods within the same class.
+**- Key Uses of this Keyword:** :
+  -**1.Referencing Current Class Instance Variables:** It is used to resolve ambiguity when instance variables and parameters have the same name.
+```java
+class Employee {
+    String name;
+    
+    Employee(String name) {
+        this.name = name; // Resolves conflict between parameter and instance variable
+    }
+    
+    void display() {
+        System.out.println("Employee Name: " + this.name);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Employee emp = new Employee("John");
+        emp.display(); // Output: Employee Name: John
+    }
+}
+```
