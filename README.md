@@ -89,7 +89,7 @@ in Java is a programming paradigm that uses the concept of "objects" to design a
 - ### **An object** :
    in Java, objec is an instance of a class. It represents a real-world entity and has two main characteristics: state (attributes) and behavior (methods). Objects are the fundamental units of Object-Oriented Programming (OOP).
 - ### **constructor** :
-- is a special method used to initialize objects. It is called when an object is created and is primarily used to set initial values for object attributes.
+  is a special method used to initialize objects. It is called when an object is created and is primarily used to set initial values for object attributes.
 - **Key Points for constructor:**
 - **Same Name as Class:** The constructor must have the same name as the class,
 - **No Return Type:** Constructors do not have a return type, not even void & 
