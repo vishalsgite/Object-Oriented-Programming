@@ -3,10 +3,10 @@
  **JVM - JAVA VIRTUAL MACHINE :** Like name suggest it is virutal machine , The Java Virtual Machine (JVM) is a crucial part of the Java Runtime Environment (JRE) responsible for running Java programs. It acts as an abstract computing machine that enables 
 a computer to run Java programs by converting the bytecode (compiled Java code) into machine-specific instructions.
 ### **Key Features of JVM:**
-Platform Independence: JVM allows Java programs to be platform-independent by interpreting bytecode for the specific underlying hardware.
-Memory Management: JVM handles memory through the heap, stack, method area, and garbage collection.
-Performance Optimization: Just-In-Time (JIT) compilation optimizes the performance of Java programs.
-Security: JVM includes security features like bytecode verification and the Security Manager.
+- **Platform Independence:** JVM allows Java programs to be platform-independent by interpreting bytecode for the specific underlying hardware.
+- **Memory Management:** JVM handles memory through the heap, stack, method area, and garbage collection.
+- **Performance Optimization:** Just-In-Time (JIT) compilation optimizes the performance of Java programs.
+- **Security:** JVM includes security features like bytecode verification and the Security Manager.
 **Components of JVM:**
 **1 - Class Loader:**
 - Loads .class files into memory.
