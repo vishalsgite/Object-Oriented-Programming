@@ -1,4 +1,4 @@
- # **JVM JDK &  JVM** ***
+ # **JVM JDK &  JVM**
 
 **JVM - JAVA VIRTUAL MACHINE :** Like name suggest it is virutal machine , The Java Virtual Machine (JVM) is a crucial part of the Java Runtime Environment (JRE) responsible for running Java programs. It acts as an abstract computing machine that enables 
 a computer to run Java programs by converting the bytecode (compiled Java code) into machine-specific instructions.
