@@ -94,7 +94,7 @@ in Java is a programming paradigm that uses the concept of "objects" to design a
 - **Same Name as Class:** The constructor must have the same name as the class,
 - **No Return Type:** Constructors do not have a return type, not even void & 
 - **Invoked Automatically:** A constructor is called automatically when an object is instantiated ,
-- **Overloading**: You can have multiple constructors in a class with different parameter lists (constructor overloading).
+- **Overloading**: You can have multiple constructors in a class with different parameter lists (constructor overloading).there should be differ in number of arguments or types of arguments must be differ or order of arguments must be different 
 - **Implicit this()**: A constructor can call another constructor of the same class using this(),
 - **Super Constructor:** The first line of a subclass constructor can call the parent class constructor using super().
 
