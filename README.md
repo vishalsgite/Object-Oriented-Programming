@@ -148,3 +148,38 @@ public class Main {
     }
 }
 ```
+- **2.Calling Another Constructor in the Same Class:**
+
+- Use this() to call another constructor from the same class.
+- It must be the first statement in the constructor. for ex .,
+```java
+class Student {
+    String name;
+    int age;
+
+    // No-argument constructor
+    Student() {
+        this("Unknown", 0); // Calls parameterized constructor
+    }
+
+    // Parameterized constructor
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    void display() {
+        System.out.println(name + ", " + age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student student1 = new Student();
+        student1.display(); // Output: Unknown, 0
+
+        Student student2 = new Student("Alice", 22);
+        student2.display(); // Output: Alice, 22
+    }
+}
+```
