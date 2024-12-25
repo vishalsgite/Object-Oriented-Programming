@@ -183,3 +183,26 @@ public class Main {
     }
 }
 ```
+- **Calling Current Class Methods:**
+
+- The this keyword can invoke a method of the current class explicitly.
+- Useful in cases where a local variable hides a method. for ex .,
+
+```java
+class Calculator {
+    void display() {
+        System.out.println("Calculator is running");
+    }
+
+    void execute() {
+        this.display(); // Calls current class method
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        calc.execute(); // Output: Calculator is running
+    }
+}
+```
