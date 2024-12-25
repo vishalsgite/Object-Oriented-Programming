@@ -82,6 +82,7 @@ JVM	-> Execute Java bytecode--> Includes : 	Execution engine, memory management
 
 -***************************************Object-Oriented Programming System (OOPs)********************************************
 in Java is a programming paradigm that uses the concept of "objects" to design and build applications.
+-**class********************************************************** in Java is a blueprint or template for creating objects. It defines the properties (fields/attributes) and behaviors (methods) that the objects created from the class will have. A class encapsulates data and methods into a single unit, following the principles of Object-Oriented Programming (OOP).
 
 
 
