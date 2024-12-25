@@ -183,7 +183,7 @@ public class Main {
     }
 }
 ```
-- **Calling Current Class Methods:**
+- **3.Calling Current Class Methods:**
 
 - The this keyword can invoke a method of the current class explicitly.
 - Useful in cases where a local variable hides a method. for ex .,
@@ -203,6 +203,27 @@ public class Main {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
         calc.execute(); // Output: Calculator is running
+    }
+}
+```
+- **4.Passing the Current Object as an Argument:**
+
+The this keyword can pass the current instance to another method or constructor.
+```java
+class A {
+    void display(A obj) {
+        System.out.println("Method called using 'this'");
+    }
+
+    void execute() {
+        display(this); // Passing the current object
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.execute(); // Output: Method called using 'this'
     }
 }
 ```
