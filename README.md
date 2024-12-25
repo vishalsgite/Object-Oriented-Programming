@@ -227,3 +227,27 @@ public class Main {
     }
 }
 ```
+- **5.Returning the Current Instance:**
+The this keyword can be used to return the current instance from a method.
+```java
+class Person {
+    String name;
+
+    Person setName(String name) {
+        this.name = name;
+        return this; // Returns the current instance
+    }
+    
+    void display() {
+        System.out.println("Name: " + name);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person p = new Person();
+        p.setName("John").display(); // Method chaining
+        // Output: Name: John
+    }
+}
+```
