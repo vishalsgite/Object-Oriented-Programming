@@ -62,10 +62,10 @@ provides the runtime environment needed to execute Java applications. It include
 The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It is the full-featured software suite that includes everything 
 needed to write, compile, and debug Java applications. The JDK is essential for Java developers.
 
-## **Key Features of JDK:**
- **1.Development Tools:** Provides tools like the Java compiler (javac), debugger (jdb), and documentation generator (javadoc).
-**2.Libraries and APIs:** Includes the standard class libraries and APIs required for Java development.
-**3.Runtime Environment:** Contains the JRE to test and execute Java programs.
+### **Key Features of JDK:**
+-  **1.Development Tools:** Provides tools like the Java compiler (javac), debugger (jdb), and documentation generator (javadoc).
+-  **2.Libraries and APIs:** Includes the standard class libraries and APIs required for Java development.
+-  **3.Runtime Environment:** Contains the JRE to test and execute Java programs.
 
 **JDK Workflow:**
 1- Write Java source code in .java files.
