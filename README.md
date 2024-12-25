@@ -73,10 +73,10 @@ needed to write, compile, and debug Java applications. The JDK is essential for 
 - 3- Execute the bytecode using the java launcher, which relies on the JVM provided in the JRE.
 - 4- Debug and test applications using tools like jdb.
 
-**Difference Between JRE, JDK, and JVM:**
-JDK	-> Develop and run Java applications	--> Includes : JRE + development tools (compiler, debugger)
-JRE ->	Run Java applications	--> Includes : JVM + standard class libraries
-JVM	-> Execute Java bytecode--> Includes : 	Execution engine, memory management
+## **Difference Between JRE, JDK, and JVM:**
+- **JDK**	-> Develop and run Java applications	--> Includes : JRE + development tools (compiler, debugger)
+- **JRE** ->	Run Java applications	--> Includes : JVM + standard class libraries
+- **JVM**	-> Execute Java bytecode--> Includes : 	Execution engine, memory management
 
 
 
