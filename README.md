@@ -8,16 +8,16 @@ a computer to run Java programs by converting the bytecode (compiled Java code) 
 - **Performance Optimization:** Just-In-Time (JIT) compilation optimizes the performance of Java programs.
 - **Security:** JVM includes security features like bytecode verification and the Security Manager.
 ### **Components of JVM:**
- **1 - Class Loader:**
+-**1 - Class Loader:**
 - Loads .class files into memory.
 - Verifies the bytecode and allocates memory.
-**2 - Runtime Data Areas:**
+-**2 - Runtime Data Areas:**
 - Method Area: Stores class structure like metadata, methods, and constant pool.
 - Heap: Holds objects and their data.
 - Java Stack: Manages method invocation and execution.
 - PC Register: Keeps track of the current instruction.
 - Native Method Stack: Supports native method execution.
-**3 - Execution Engine:**
+-**3 - Execution Engine:**
 - Executes the bytecode.
 - Interpreter: Interprets and executes bytecode instructions one at a time.
 - JIT Compiler: Compiles bytecode into native code to improve performance.
