@@ -67,11 +67,11 @@ needed to write, compile, and debug Java applications. The JDK is essential for 
 -  **2.Libraries and APIs:** Includes the standard class libraries and APIs required for Java development.
 -  **3.Runtime Environment:** Contains the JRE to test and execute Java programs.
 
-**JDK Workflow:**
-1- Write Java source code in .java files.
-2- Use the javac compiler to convert the source code into bytecode (.class files).
-3- Execute the bytecode using the java launcher, which relies on the JVM provided in the JRE.
-4- Debug and test applications using tools like jdb.
+### **JDK Workflow:**
+- 1- Write Java source code in .java files.
+- 2- Use the javac compiler to convert the source code into bytecode (.class files).
+- 3- Execute the bytecode using the java launcher, which relies on the JVM provided in the JRE.
+- 4- Debug and test applications using tools like jdb.
 
 **Difference Between JRE, JDK, and JVM:**
 JDK	-> Develop and run Java applications	--> Includes : JRE + development tools (compiler, debugger)
